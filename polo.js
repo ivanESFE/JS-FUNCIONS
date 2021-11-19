@@ -1,2 +1,2 @@
-var nom = 'ivan'
+var nom = 'ivan02'
 console.log(nom)
