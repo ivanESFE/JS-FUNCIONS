@@ -1,10 +1,6 @@
-var x
-console.log(x)
+//Coerció explícita
+let x = 123;
+x.toString();
 
-var y = null
-console.log(typeof y)
-
-let suma = x+y
-console.log(suma)
-
-
+//Coerció implicita
+123 + ' '
