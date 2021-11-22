@@ -1,4 +1,4 @@
 var nomICog = 'ivan Esteban'
 
-console.log('El meu cognom es: ' + nomICog.slice(5,12) + ' i te ' + nomICog.slice(5,12).length + ' lletres')
+console.log(nomICog.slice(0,6) + nomICog.slice(7))
 
