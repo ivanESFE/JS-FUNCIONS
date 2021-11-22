@@ -1,2 +1,3 @@
-console.log(nom)
 var nom = 'ivan'
+nom=7
+console.log(nom)
