@@ -1,4 +1,10 @@
-var nomICog = 'ivan Esteban'
+var x
+console.log(x)
 
-console.log(nomICog.slice(0,6) + nomICog.slice(7))
+var y = null
+console.log(typeof y)
+
+let suma = x+y
+console.log(suma)
+
 
