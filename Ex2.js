@@ -1,6 +1,3 @@
-var nom = 'Ivan'
-const cognom = 'Esteban'
-let edat = 19
-console.log(nom)
-console.log(cognom)
-console.log(edat)
+console.log('ivan Esteban,21/05/2002')
+console.warn('ivan Esteban,21/05/2002')
+console.error('ivan Esteban,21/05/2002')
