@@ -1,2 +1,2 @@
-console.log(Boolean('una bona coca de vidre'))
-console.log(true || 'fullet tortuga')
+console.log(Number(true))
+console.log(7 != true)
