@@ -1,6 +1,2 @@
-//Coerció explícita
-let x = 123;
-x.toString();
-
-//Coerció implicita
-123 + ' '
+console.log(Boolean('una bona coca de vidre'))
+console.log(true || 'fullet tortuga')
