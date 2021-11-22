@@ -1,4 +1,4 @@
-var num = 7
-var nom ='ivan'
+var nomICog = 'ivan Esteban'
 
-console.log(num/nom)
+console.log('El meu cognom es: ' + nomICog.slice(5,12) + ' i te ' + nomICog.slice(5,12).length + ' lletres')
+
