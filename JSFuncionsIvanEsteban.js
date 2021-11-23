@@ -1,8 +1,8 @@
-//Ex-3 Funcions
+//Ex-4 Funcions
+
 function dataActual(){
-
-const fecha = new Date();
-console.log(fecha)
-
+    var hola = 'hola'
 }
+
 dataActual();
+console.log(hola)
