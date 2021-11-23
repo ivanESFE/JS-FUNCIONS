@@ -1,7 +1,7 @@
-//Ex-1 Funcions
+//Ex-2 Funcions
 
-function nomICognom(){
-    console.log('Ivan Esteban')
+function parametre(){
+    console.log(typeof true)
 }
 
-nomICognom();
+parametre();
