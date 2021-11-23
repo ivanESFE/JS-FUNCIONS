@@ -1,8 +1,14 @@
-//Ex-4 Funcions
+//Ex-5 Funcions
 
-function dataActual(){
-    var hola = 'hola'
+function contarVocales(texto){
+    let contVocales = 0;
+    let vocales =['a','e','i','o','u'];
+
+    for(let i = 0; i< texto.length; ++i){
+        if (vocales.indexOf(texto[i]) >= 0) {
+            ++contVocales;
+        }
+    }
+    return contVocales;
 }
-
-dataActual();
-console.log(hola)
+console.log(contarVocales('catedral'));
