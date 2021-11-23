@@ -1,7 +1,8 @@
-//Ex-2 Funcions
+//Ex-3 Funcions
+function dataActual(){
 
-function parametre(){
-    console.log(typeof true)
+const fecha = new Date();
+console.log(fecha)
+
 }
-
-parametre();
+dataActual();
