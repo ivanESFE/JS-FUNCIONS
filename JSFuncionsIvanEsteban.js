@@ -1,9 +1,5 @@
-//Ex-10 Funcions
+//Ex-11 Funcions
 
-var numeros = (a,b) => {
-if (a===b) {
-    return true
-}
-else return false
-}
-console.log(numeros(4,4))
+var polo =(a) =>'larrel de ' + a + ' es ' + Math.sqrt(a).toFixed(2) 
+console.log(polo(10))
+
