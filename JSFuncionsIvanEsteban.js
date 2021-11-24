@@ -1,17 +1,9 @@
-//Ex-7 Funcions
+//Ex-10 Funcions
 
-function funcioAnonima(){
-    let valor1,valor2;
-    valor1=10
-    valor2=15
-    if ((valor1 == 30)|| (valor2==30)|| valor1+valor2==30){
-        
-        console.log(true)
-    }
-    else{
-        console.log(false)
-    }
-
+var numeros = (a,b) => {
+if (a===b) {
+    return true
 }
-
-funcioAnonima();
+else return false
+}
+console.log(numeros(4,4))
