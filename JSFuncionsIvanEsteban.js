@@ -1,5 +1,5 @@
-//Ex-11 Funcions
+//Ex-12 Funcions
 
-var polo =(a) =>'larrel de ' + a + ' es ' + Math.sqrt(a).toFixed(2) 
-console.log(polo(10))
+var polo =(a) =>'L estring en minuscules es ' +  a.toLowerCase()
+console.log(polo('HOLA'))
 
