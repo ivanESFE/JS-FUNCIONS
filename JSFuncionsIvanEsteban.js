@@ -1,18 +1,13 @@
 //Ex-14 Funcions
 
 
-let posicio = (x,y) => {
+let suma =(x) =>'El resultat de ' + x + ' és ' + x+x+x
+console.log(suma(5))
+    
 
-    return (x.length-x.indexOf(y))
-}
-console.log(posicio('Bon dia noi','dia'));
+let fun =(p, n, r, t) => p * Math.pow(1 + (r / n), n * t).toFixed(2)
+console.log(fun(4,5,3,6))
 
-let dividir = (x,y) => {
-
-    return y.substr(x,y.length)
-}
-
-console.log(dividir(posicio('Bon dia noi','noi'),'bon dia noi'))
 
 
 
