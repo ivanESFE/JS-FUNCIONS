@@ -1,22 +1,18 @@
-//Ex-13 Funcions
+//Ex-14 Funcions
 
 
-var polo =(a,b) => {
-    
-    if (a==null && b!=null) {
-        return b;
-    }
-    else if(a!=null && b==null){
-        return a;
-    }
-    else if(a!=null && b!=null){
-        return (a + ' ' + b)
-    }   
+let posicio = (x,y) => {
+
+    return (x.length-x.indexOf(y))
 }
-console.log(polo(7,null))
-    
+console.log(posicio('Bon dia noi','dia'));
 
+let dividir = (x,y) => {
 
+    return y.substr(x,y.length)
+}
+
+console.log(dividir(posicio('Bon dia noi','noi'),'bon dia noi'))
 
 
 
